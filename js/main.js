@@ -74,4 +74,30 @@ class ProductInBasket extends ProductItem {
     };
 }
 
+class Basket {
+    constructor(conteiner = '.basket') {
+        this.container = container;
+        this.goods = [];
+        this.allProducts = [];
+    }
+
+    render() {        // отображение в корзине
+
+    };
+
+    addToBasket() {   // добавление товара в корзину или увеличение количества
+
+    };
+
+    removeFromBasket() {  // удаление товара из корзины или уменьшение количества
+
+    };
+
+    totalPrice() {        // расчет полной стоимость товаров в корзине
+
+    };
+
+}
+
+
 const list = new ProductList();
